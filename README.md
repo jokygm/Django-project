@@ -1,6 +1,6 @@
 # Django-project
 Django learning
-不知道中文可以嗎 不同的字型 是否可以
+#不知道中文可以嗎 不同的字型 是否可以
 4<5
 
 This is an H1
@@ -41,6 +41,8 @@ This is an H2
 2. McHale
 3. Parish
 
+`&#8212;` is the decimal‐encoded equivalent of `&mdash;`.
+
 * Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
 viverra nec, fringilla in, laoreet vitae, risus.
@@ -61,9 +63,21 @@ sit amet, consectetuer adipiscing elit.
 * A list item with a code block:
           <code goes here>
 
-1986. What a great season.
-1987. 
+1986\. What a great season.
+
 
 [foo]: http://example.com/ "Optional Title Here"
 [foo]: http://example.com/ 'Optional Title Here'
 [foo]: http://example.com/ (Optional Title Here)
+
+*single asterisks*
+_single underscores_
+
+**double asterisks**
+__double underscores__
+
+I get 10 times more traffic from [Google] [1] than from
+[Yahoo] [2] or [MSN] [3].
+[1]: http://google.com/ "Google"
+[2]: http://search.yahoo.com/ "Yahoo Search"
+[3]: http://search.msn.com/ "MSN Search"
